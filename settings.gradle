@@ -1,0 +1,2 @@
+rootProject.name = "WWeather"
+include ':app'
