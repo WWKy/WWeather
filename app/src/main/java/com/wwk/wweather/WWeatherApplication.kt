@@ -9,6 +9,7 @@ class WWeatherApplication: Application() {      // 继承Application子类后，
     companion object{
         @SuppressLint("StaticFieldLeak")    // ?
         lateinit var context: Context   // 延迟初始化
+        const val TOKEN = "931a88553a454ffeb636cee612852c63"    // 常量（编译期确定）
     }
 
     override fun onCreate() {
